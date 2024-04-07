@@ -1,0 +1,405 @@
+body {
+        max-width: 90%;
+        padding: 0 auto;
+        margin: 0 auto;
+        background-color: rgb(209, 231, 240);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.342);
+}
+/* Общие стили для шапки */
+.navbar {
+        background-color: #cff3fc;
+        padding: 20px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-end-end-radius: 20px;
+    }
+    
+    /* Стили для логотипа и названия сайта */
+    .logo-container {
+        display: flex;
+        align-items: center;
+    }
+
+   /* Стили для логотипа */
+        .logo img {
+        width: 50px; 
+        height: 50px; 
+        border-radius: 50%; 
+        overflow: hidden; 
+    }
+    
+    
+    
+    .logo {
+        margin-right: 20px;
+    }
+    
+    .site-name {
+        text-decoration: none;
+        color: #333333;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+        margin-left: 10px;
+    }
+    
+    .site-name:hover {
+        color: #007bff;
+    }
+    
+    
+    /* Стили для пунктов меню */
+    .menu-items {
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .menu-list li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    .menu-list li a {
+        text-decoration: none;
+        color: #333333;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+    }
+    
+    .menu-list li a:hover {
+        color: #007bff;
+    }
+    
+    /* Стили для кнопки "Узнать больше" */
+    .more-button a {
+        text-decoration: none;
+        color: #007bff;
+        border: 1px solid #007bff;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+    }
+    
+    .more-button a:hover {
+        background-color: #eba845;
+        color: #000000;
+        border: 1px solid #000000;
+    }
+    
+ /* Общие стили для секции "О нас" */
+.about-section {
+        padding: 50px 0; 
+    }
+    
+    .container {
+        max-width: 1200px; 
+        margin: 0 auto; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .images-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px; 
+    }
+    
+    .image-container {
+        width: 580px;
+        height: 380px; 
+        overflow: hidden; 
+        margin-right: 20px; 
+        border-radius: 20px;
+    }
+    
+    .image-container img {
+        display: block;
+        width: 100%;
+        height: auto; 
+    }
+    
+    
+    .image-container:last-child {
+        margin-right: 0; 
+    }
+    
+    
+    
+    .text-content {
+        text-align: center; 
+    }
+    
+    .text-content h4 {
+        margin-bottom: 20px;
+        font-family: Arial, sans-serif; 
+        font-size: 28px; 
+        font-weight: bold; 
+    }
+    
+    .text-content p {
+        margin-bottom: 15px;
+        font-family: Arial, sans-serif; 
+        font-size: 18px;
+        line-height: 1.6; 
+    }
+     
+
+    .card-section {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;
+    }
+    
+    .card {
+        background-color: #cff3fc;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        padding: 20px;
+        width: 300px;
+        height: 350px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+    
+    .card h5 {
+        color: rgb(0, 0, 0);
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    
+    
+    .card h6 {
+        color: #555;
+        font-size: 18px;
+        margin-top: 0;
+    }
+    
+    .card p {
+        color: #777;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    
+    .card a {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 20px;
+        text-decoration: none;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .card a:hover {
+        background-color: #0056b3;
+    }
+    
+    .section-container {
+        padding: 50px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .content-container {
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .text-container {
+        margin-left: 20px;
+        flex: 1;
+        margin-right: 10px;
+    }
+    
+    h5 {
+        font-family: Arial, sans-serif; 
+        font-size: 30px; 
+    }
+
+    h6 {
+         font-family: Arial, sans-serif; 
+        font-size: 24px;
+    }
+    
+    .image-container {
+        flex: 1;
+    }
+    
+    .image {
+        width: 100%;
+        border-radius: 8px;
+    }
+    
+    .faq-section {
+        padding: 50px 0;
+        text-align: center;
+    }
+    
+    .faq-container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .faq-card {
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        padding: 20px;
+        text-align: left;
+    }
+    
+    .question h5 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+    
+    .question p {
+        font-size: 18px;
+        color: #555;
+        margin-top: 0;
+    }
+    
+    .team-section {
+        padding: 50px 0;
+        text-align: center;
+    }
+    
+    .team-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .team-member {
+        width: 300px;
+        margin: 20px;
+    }
+    
+    .member-info {
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .member-image {
+        margin-bottom: 20px;
+    }
+    
+    .member-image img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+    
+    .member-details h5 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 5px;
+    }
+    
+    .member-details h6 {
+        font-size: 18px;
+        color: #555;
+        margin: 0;
+    }
+
+    .events-section {
+        padding: 50px 0;
+        text-align: center;
+    }
+    
+    .events-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .event {
+        width: 300px;
+        margin: 20px;
+    }
+    
+    .event-image img {
+        width: 100%;
+        border-radius: 8px;
+    }
+    
+    .event-details {
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .event-details h5 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 5px;
+    }
+    
+    .event-details p {
+        font-size: 18px;
+        color: #555;
+        margin-top: 0;
+    }
+    
+    .event-details a {
+        display: inline-block;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 4px;
+        padding: 10px 20px;
+        text-decoration: none;
+        margin-top: 10px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .event-details a:hover {
+        background-color: #0056b3;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+    }
+    
+    .footer-info {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .footer-info p {
+        margin: 0;
+    }
+    
